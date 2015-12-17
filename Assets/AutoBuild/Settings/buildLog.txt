@@ -1,0 +1,665 @@
+2015-12-17 11:41:03.088 Unity[16915:782672] NSDocumentController Info.plist warning: The values of CFBundleTypeRole entries must be 'Editor', 'Viewer', 'None', or 'Shell'.
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Symbol file /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll.mdb doesn't match image /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Launching external process: /Applications/Unity5.2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity5.2/Unity.app/Contents/Tools/UnityShaderCompiler
+debugger-agent: Unable to listen on 6
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
+xture_float GL_ATI_texture_mirror_once GL_IBM_rasterpos_clip GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_barrier GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod 
+GL: Detected 1536 MB VRAM
+Targeting platform: android
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.Locator.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.DataContract.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.IvyParser.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Configuration.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PackageManager/Unity/PackageManager/5.2.2/Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v5.2.2 for Unity v5.2.2f1
+Setting Android v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer
+Setting StandaloneLinux v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport
+Setting StandaloneOSXIntel v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport
+Setting SamsungTV v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer
+Setting Tizen v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer
+Setting WebGL v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport
+Setting StandaloneWindows v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport
+Setting BB10 v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iossupport
+Setting Advertisements v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements
+Setting GUISystem v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem
+Setting UNetHLAPI v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking
+Setting UnityAnalytics v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics
+Registering custom dll's ...
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001174 seconds.
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PackageManager/Unity/PackageManager/5.2.2/Unity.PackageManager.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PackageManager/Unity/PackageManager/5.2.2/Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Registering platform support modules:
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Mono.Security.dll (this message is harmless)
+Registered platform support modules in: 0.104293s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Native extension for SamsungTV target not found
+Native extension for Tizen target not found
+Load native extension module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Native.dylib
+Native extension for Android target not found
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+WeaveUnetFromEditor Temp/Assembly-CSharp.dll
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.UNetWeaver.dll (this message is harmless)
+WeaveAssemblies unityPath= /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll
+WeaveAssemblies unetPath= /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.Pdb.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.Mdb.dll (this message is harmless)
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 13
+
+-----Compiler Commandline Arguments:
+Filename: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/bin/mono
+Arguments: '/Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/gmcs.exe'  @Temp/UnityTempFile-0b60b9c57ab8d401999b21d69bb166fe
+MONO_PATH: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0
+MONO_CFG_DIR: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/etc
+index: 84
+Responsefile: Temp/UnityTempFile-0b60b9c57ab8d401999b21d69bb166fe Contents: 
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-define:UNITY_5_2_2
+-define:UNITY_5_2
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_REFLECTION_BUFFERS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_DUCK_TYPING
+-define:Nothing
+-define:PRODUCTION
+'Assets/AutoBuild/Editor/AlleyLabsEditorTools.cs'
+'Assets/AutoBuild/Editor/BuildCommand.cs'
+'Assets/AutoBuild/Editor/BuildSettings.cs'
+'Assets/AutoBuild/Editor/BuildSettingsWindow.cs'
+'Assets/AutoBuild/Editor/ScriptableObjectUtility.cs'
+-r:'/Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll'
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp-Editor.dll
+Compilation succeeded - 3 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/AutoBuild/Editor/BuildCommand.cs(119,44): warning CS0168: The variable `ex' is declared but never used
+Assets/AutoBuild/Editor/BuildSettingsWindow.cs(21,21): warning CS0414: The private field `BuildSettingsWindow.toolbarButtonIndex' is assigned but its value is never used
+Assets/AutoBuild/Editor/BuildSettingsWindow.cs(25,22): warning CS0414: The private field `BuildSettingsWindow.showCommonSettings' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+WeaveUnetFromEditor Temp/Assembly-CSharp-Editor.dll
+WeaveAssemblies unityPath= /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll
+WeaveAssemblies unetPath= /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+Assets/AutoBuild/Editor/BuildCommand.cs(119,44): warning CS0168: The variable `ex' is declared but never used
+ 
+(Filename: Assets/AutoBuild/Editor/BuildCommand.cs Line: 119)
+
+Assets/AutoBuild/Editor/BuildSettingsWindow.cs(21,21): warning CS0414: The private field `BuildSettingsWindow.toolbarButtonIndex' is assigned but its value is never used
+ 
+(Filename: Assets/AutoBuild/Editor/BuildSettingsWindow.cs Line: 21)
+
+Assets/AutoBuild/Editor/BuildSettingsWindow.cs(25,22): warning CS0414: The private field `BuildSettingsWindow.showCommonSettings' is assigned but its value is never used
+ 
+(Filename: Assets/AutoBuild/Editor/BuildSettingsWindow.cs Line: 25)
+
+Reloading assemblies after successful script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.Locator.dll (this message is harmless)
+Registering custom dll's ...
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Registered in 0.002549 seconds.
+Non platform assembly: /Users/huuloc/Documents/Workspace/AutobuildSetting/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
+Loading /Users/huuloc/Documents/Workspace/AutobuildSetting/Library/ScriptAssemblies/Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: /Users/huuloc/Documents/Workspace/AutobuildSetting/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll (this message is harmless)
+Loading /Users/huuloc/Documents/Workspace/AutobuildSetting/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PackageManager/Unity/PackageManager/5.2.2/Unity.PackageManager.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PackageManager/Unity/PackageManager/5.2.2/Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.DataContract.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.IvyParser.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.395 seconds
+Initializing Unity.PackageManager (PackageManager) v5.2.2 for Unity v5.2.2f1
+Setting Android v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/AndroidPlayer
+Setting StandaloneLinux v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport
+Setting StandaloneOSXIntel v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport
+Setting SamsungTV v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/STVPlayer
+Setting Tizen v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/TizenPlayer
+Setting WebGL v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WebGLSupport
+Setting StandaloneWindows v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport
+Setting BB10 v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/PlaybackEngines/iossupport
+Setting Advertisements v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements
+Setting GUISystem v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem
+Setting UNetHLAPI v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking
+Setting UnityAnalytics v5.2.2 for Unity v5.2.2f1 to /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics
+Registering platform support modules:
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
+Registered platform support modules in: 0.060477s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Native extension for SamsungTV target not found
+Native extension for Tizen target not found
+Native extension for Android target not found
+Validating Project structure ... 0.000344 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000168 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.030971 seconds
+Updating Assets/AutoBuild/Settings/buildLog.txt - GUID: da15f856e44414a0dbd4abf38e273417...
+BuildSettingsWindow uses the CustomEditor attribute but does not inherit from Editor.
+You must inherit from Editor. See the Editor class script documentation.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEditor.CustomEditorAttributes:Rebuild(Assembly) (at /Users/builduser/buildslave/unity/build/Editor/Mono/CustomEditorAttributes.cs:83)
+UnityEditor.CustomEditorAttributes:FindCustomEditorTypeByType(Type, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/CustomEditorAttributes.cs:36)
+UnityEditor.CustomEditorAttributes:FindCustomEditorType(Object, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/CustomEditorAttributes.cs:27)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:13)
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Mono/CustomEditorAttributes.cs Line: 83)
+
+ done. [Time: 31.700022 ms] 
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.095531s, AssetImport time: 0.064300s, Asset hashing: 0.000230s [34.2 KB, 145.005463 mb/s]
+
+Warming cache...0.000186 seconds
+Initializing Unity extensions:
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' 
+ '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' 
+Opening scene 'Assets/Untitled.unity'
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.3 MB.
+System memory in use after: 44.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 442.
+Total: 0.906019 ms (FindLiveObjects: 0.050167 ms CreateObjectMapping: 0.007734 ms MarkObjects: 0.845224 ms  DeleteObjects: 0.001910 ms)
+
+Load scene 'Assets/Untitled.unity' time: 49.287193 ms 
+Command line build android version
+------------------
+------------------
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Debugger:<Log>m__0(Object) (at Assets/Tools/Debugger.cs:18)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:138)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+ 
+(Filename: Assets/Tools/Debugger.cs Line: 18)
+
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 4.450623 ms] 
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.056413s, AssetImport time: 0.021296s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.CecilTools.dll (this message is harmless)
+DisplayProgressbar: Building Player
+building target 13
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for AndroidPlayer
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+WeaveUnetFromEditor Temp/Assembly-CSharp.dll
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Unity.UNetWeaver.dll (this message is harmless)
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+WeaveAssemblies unityPath= /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll
+WeaveAssemblies unetPath= /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.Pdb.dll (this message is harmless)
+Platform assembly: /Applications/Unity5.2/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.Mdb.dll (this message is harmless)
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' because we're compiling for AndroidPlayer
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for AndroidPlayer
+
+Packing sprites:
+- Grouping sprites using the selected SpritePackerPolicy.
+- Packing 0 atlases.
+- Packing completed.
+Opening scene 'Temp/__BuildPlayer Backupscene'
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.9 MB.
+System memory in use after: 50.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 444.
+Total: 5.419903 ms (FindLiveObjects: 0.045469 ms CreateObjectMapping: 0.011146 ms MarkObjects: 5.358915 ms  DeleteObjects: 0.003200 ms)
+
+Load scene 'Temp/__BuildPlayer Backupscene' time: 51.674965 ms 
+Iterative baking GI data 0 ms
+Ignoring /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+Ignoring /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - Assembly-CSharp.dll
+
+DisplayProgressbar: Fetching assembly references
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.1 MB.
+System memory in use after: 53.1 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 6.458207 ms (FindLiveObjects: 0.033959 ms CreateObjectMapping: 0.007698 ms MarkObjects: 6.278427 ms  DeleteObjects: 0.137142 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7000005a0000 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 7.379170 ms (FindLiveObjects: 0.122873 ms CreateObjectMapping: 0.015961 ms MarkObjects: 7.233162 ms  DeleteObjects: 0.006081 ms)
+
+DisplayProgressbar: Building Player
+Opening scene 'Temp/__BuildPlayer Backupscene'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 7.704714 ms (FindLiveObjects: 0.122559 ms CreateObjectMapping: 0.016661 ms MarkObjects: 7.559543 ms  DeleteObjects: 0.005173 ms)
+
+Load scene 'Temp/__BuildPlayer Backupscene' time: 61.035900 ms 
+Iterative baking GI data 0 ms
+WARNING: Shader Unsupported: 'Hidden/InternalSplashShadowReceiver' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/InternalSplashShadowReceiver' - Setting to default shader.
+Script attached to 'UI Root' in scene '' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:201)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:148)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:152)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+
+[/Users/builduser/buildslave/unity/build/Runtime/Mono/MonoBehaviourSerialization_Editor.cpp line 605] 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs Line: 201)
+
+Script attached to 'UI Root' in scene '' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:201)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:148)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:152)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+
+[/Users/builduser/buildslave/unity/build/Runtime/Mono/MonoBehaviourSerialization_Editor.cpp line 605] 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs Line: 201)
+
+Script attached to 'Sprite' in scene '' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:201)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:148)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:152)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+
+[/Users/builduser/buildslave/unity/build/Runtime/Mono/MonoBehaviourSerialization_Editor.cpp line 605] 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs Line: 201)
+
+Script attached to 'Camera' in scene '' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:201)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:148)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:152)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+
+[/Users/builduser/buildslave/unity/build/Runtime/Mono/MonoBehaviourSerialization_Editor.cpp line 605] 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs Line: 201)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 37.891434 ms (FindLiveObjects: 0.214250 ms CreateObjectMapping: 0.038769 ms MarkObjects: 9.636070 ms  DeleteObjects: 28.001209 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 7.355541 ms (FindLiveObjects: 0.130766 ms CreateObjectMapping: 0.018116 ms MarkObjects: 7.196472 ms  DeleteObjects: 0.008949 ms)
+
+
+Textures      145.5 kb	 3.1% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       0.0 kb	 0.0% 
+Other Assets  1.4 kb	 0.0% 
+Levels        17.5 kb	 0.4% 
+Scripts       413.1 kb	 8.9% 
+Included DLLs 3.9 mb	 87.1% 
+File headers  20.5 kb	 0.4% 
+Complete size 4.5 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 146.1 kb	 3.2% Assets/AutoBuild/Resources/alleylabsIcon.png
+ 4.0 kb	 0.1% /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 1.6 kb	 0.0% /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 0.6 kb	 0.0% Assets/AutoBuild/Resources/BuildSettings.asset
+ 0.1 kb	 0.0% /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% Assets/AutoBuild/Editor/BuildSettings.cs
+ 0.1 kb	 0.0% /Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+ 0.1 kb	 0.0% Assets/Tools/Debugger.cs
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000190 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.030941 seconds
+Updating Assets/AutoBuild/Settings/buildLog.txt - GUID: da15f856e44414a0dbd4abf38e273417...
+ done. [Time: 5.653386 ms] 
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.066450s, AssetImport time: 0.034886s, Asset hashing: 0.000266s [49.8 KB, 182.634247 mb/s]
+
+Cancelling DisplayDialog: Build failure! Unable to locate Android SDK
+UnityException: Build failure!
+Unable to locate Android SDK
+  at UnityEditor.Android.PostProcessAndroidPlayer.ShowErrDlgAndThrow (System.String title, System.String message, System.Exception ex) [0x00000] in <filename unknown>:0 
+  at UnityEditor.Android.PostProcessAndroidPlayer.ShowErrDlgAndThrow (System.String title, System.String message) [0x00000] in <filename unknown>:0 
+  at UnityEditor.Android.PostProcessAndroidPlayer..ctor () [0x00000] in <filename unknown>:0 
+  at UnityEditor.Android.PostProcessAndroidPlayer.PostProcess (BuildTarget target, System.String stagingAreaData, System.String stagingArea, System.String playerPackage, System.String installPath, System.String companyName, System.String productName, BuildOptions options, UnityEditor.RuntimeClassRegistry usedClassRegistry) [0x00000] in <filename unknown>:0 
+  at UnityEditor.Android.AndroidBuildPostprocessor.PostProcess (BuildPostProcessArgs args) [0x00000] in <filename unknown>:0 
+  at UnityEditor.PostprocessBuildPlayer.Postprocess (BuildTarget target, System.String installPath, System.String companyName, System.String productName, Int32 width, Int32 height, System.String downloadWebplayerUrl, System.String manualDownloadWebplayerUrl, BuildOptions options, UnityEditor.RuntimeClassRegistry usedClassRegistry) [0x000c5] in /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/PostprocessBuildPlayer.cs:316 
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, BuildTarget, BuildOptions, Boolean, UInt32&)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, BuildTarget, BuildOptions, UInt32&) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:201)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:148)
+BuildCommand:BuildAndroid(BuildSettings, Boolean, Boolean) (at Assets/AutoBuild/Editor/BuildCommand.cs:152)
+BuildCommand:BuildAndroidDevelopmentRemote() (at Assets/AutoBuild/Editor/BuildCommand.cs:156)
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/PostprocessBuildPlayer.cs Line: 316)
+
+Error building Player: UnityException: Build failure!
+Unable to locate Android SDK
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 7.490302 ms (FindLiveObjects: 0.126125 ms CreateObjectMapping: 0.016433 ms MarkObjects: 7.331563 ms  DeleteObjects: 0.015184 ms)
+
+Load scene 'Temp/__BuildPlayer Backupscene' time: 60.099300 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 7.128485 ms (FindLiveObjects: 0.118156 ms CreateObjectMapping: 0.016589 ms MarkObjects: 6.988116 ms  DeleteObjects: 0.004766 ms)
+
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring '/Applications/Unity5.2/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 13
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 15.950957 ms (FindLiveObjects: 0.261445 ms CreateObjectMapping: 0.040487 ms MarkObjects: 15.635606 ms  DeleteObjects: 0.011878 ms)
+
+
+*** Cancelled 'Build.Player.AndroidPlayer' in 7 seconds (7381 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000115 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.049998 seconds
+Updating Assets/AutoBuild/Settings/buildLog.txt - GUID: da15f856e44414a0dbd4abf38e273417...
+ done. [Time: 9.276701 ms] 
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.108484s, AssetImport time: 0.057891s, Asset hashing: 0.000361s [54.6 KB, 147.913803 mb/s]
+
+Internal: Possible leak. All textures should be removed from IdMap when destructed using RemoveTexture(TextureID texid).
+ 
+(Filename: /Users/builduser/buildslave/unity/build/Runtime/GfxDevice/TextureIdMap.cpp Line: 17)
+
+Cleanup mono
+Unloading native extension module for target: iOS
+Exiting batchmode successfully now!

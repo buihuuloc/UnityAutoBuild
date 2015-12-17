@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Unity-CI-Build" default="main" basedir=".">
+  <property environment="env"/>
+  <property name="RAW_BUILD_NUMBER" value="${env.BUILD_NUMBER}"/>
+  <script language="javascript"><![CDATA[
+    var buildNum = parseInt(project.getProperty("RAW_BUILD_NUMBER"))
+    var minorBuildNumber = buildNum % 100;
+    var majorBuildNumber = (Math.floor(buildNum / 100)) % 100;
+    var uberBuildNumber = (Math.floor(buildNum / 10000)) % 100;
+    project.setProperty("minorBuildNumber", minorBuildNumber);
+    project.setProperty("majorBuildNumber", majorBuildNumber);
+    project.setProperty("uberBuildNumber", uberBuildNumber);
+  ]]></script>
+  <property name="VERSION_STRING" value="${uberBuildNumber}.${majorBuildNumber}.${minorBuildNumber}"/>
+  <property file="Dev_En.properties"/>
+  <property name="devDir.absolute" location="${devDir}"/>
+  <property name="buildDir.absolute" location="${buildDir}"/>
+  <tstamp>
+    <format property="TODAY_STAMP" pattern="yyyy_MM_dd" locale="en,US"/>
+  </tstamp>
+  <tstamp>
+    <format property="MONTH_STAMP" pattern="M" locale="en,US"/>
+  </tstamp>
+  <property name="VERSION_NUM" value="${uberBuildNumber}.${majorBuildNumber}.${minorBuildNumber}"/>
+  <property name="VERSION_STRING" value="honorbound_${VERSION_NUM}"/>
+
+  <target name="android-local" depends="unity-android-complie-local"/>
+  <target name="android-development" depends="unity-android-complie-development" />
+  <target name="android-production" depends="unity-android-complie-production" />
+
+  <target name="ios-development" depends="clean, unity-ios-complie-development, export-ipa">
+    <antcall target="resign-ipa">
+      <param name="provisioning_file" value="${IOSAdHocPorvisioningFile}"/>
+    </antcall>
+  </target>
+
+  <target name="ios-production" depends="clean, unity-ios-complie-proudction, export-ipa">
+    <antcall target="resign-ipa">
+      <param name="provisioning_file" value="${IOSDistributionProvisioningFile}"/>
+    </antcall>
+  </target>
+
+  <!--Unity build ios development-->
+  <target name="unity-ios-complie-development">
+    <antcall target="unity-ios-complie">
+      <param name="static_method" value="BuildCommand.BuildIOSDevelopment"/>
+    </antcall>
+  </target>
+
+  <!--Unity build ios production-->
+  <target name="unity-ios-complie-proudction">
+    <antcall target="unity-ios-complie">
+      <param name="static_method" value="BuildCommand.BuildIOSProduction"/>
+    </antcall>
+  </target>
+
+
+  <target name="unity-ios-complie">
+    <echo message="Compiling unity project for version ios"/>
+    <echo message="${unityPath} -projectPath ${devDir.absolute} -executeMethod ${static_method} -buildTarget ios -batchmode -quit"/>
+    <exec executable="${unityPath}" failonerror="true">
+      <arg line="-projectPath ${devDir.absolute}"/>
+      <arg line="-executeMethod ${static_method}"/>
+      <arg line="-buildTarget ios"/>
+      <arg line="-logFile ${buildDir}/buildLog.txt"/>
+      <arg line="-batchmode"/>
+      <arg line="-quit"/>
+    </exec>
+  </target>
+
+  <target name="export-ipa">
+    <replace file="${buildDir}/iPhone/Info.plist" preservelastmodified="true">
+      <replacefilter token="999.999.999" value="${VERSION_NUM}" />
+    </replace>
+
+    <echo message="Building ${buildDir}/iPhone/Unity-iPhone.xcodeproj/ Sym Root ${buildDir}/iPhone/"/>
+    <exec executable="${xcodeBuild}" failonerror="true">
+      <arg line="archive -project ${buildDir}/iPhone/Unity-iPhone.xcodeproj/"/>
+      <arg line="-archivePath ${buildDir}/iPhone/Unity-iPhone.xcarchive"/>
+      <arg line="-sdk iphoneos"/>
+      <arg line='GCC_GENERATE_DEBUGGING_SYMBOLS=NO'/>
+      <arg line='DEBUG_INFORMATION_FORMAT=dwarf-with-dsym'/>
+      <arg line='DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO'/>
+      <arg line='DEBUGGING_SYMBOLS=NO'/>
+
+      <arg line="-configuration Release -scheme ${schemeName}"/>
+    </exec>
+
+    <echo message="exporting..."/>
+
+    <mkdir dir="${buildDir}/iOS"/>
+    <exec executable="${xcodeBuild}" failonerror="true">
+      <arg line='-exportArchive -archivePath ${buildDir}/iPhone/Unity-iPhone.xcarchive -exportPath ${buildDir}/iOS/${fileName}_v${VERSION_STRING}.ipa -exportFormat ipa'/>
+    </exec>
+  </target>
+  
+  <target name="export-ipa-production" depends="export-ipa">
+    <antcall target="resign-ipa">
+      <param name="provisioning_file" value="${IOSDistributionProvisioningFile}"/>
+    </antcall>
+  </target>
+    <target name="export-ipa-development" depends="export-ipa">
+    <antcall target="resign-ipa">
+      <param name="provisioning_file" value="${IOSAdHocPorvisioningFile}"/>
+    </antcall>
+  </target>
+  
+  <target name="resign-ipa">
+    <echo message="Resigh IPA file"/>
+    <mkdir dir="${buildDir}/iOS_Resign"/>
+    <copy file="${buildDir}/iOS/${fileName}_v${VERSION_STRING}.ipa" tofile="${buildDir}/iOS_Resign/${fileName}.ipa"/>
+    <copy file="${provisioning_file}" tofile="${buildDir}/iOS_Resign/provisioning.mobileprovision"/>
+
+    <exec executable="sigh" failonerror ="true" dir="${buildDir}/iOS_Resign">
+      <arg line="resign ${fileName}.ipa"/>
+      <arg line="--signing_identity ${appleSigningIdentity}"/>
+      <arg line="-n provisioning.mobileprovision"/>
+    </exec>
+  </target>
+
+  <target name="upload_to_itune_connect">
+    <echo message="Upload IPA to itune connect"/>
+      <exec executable="pilot" failonerror="false" dir="${buildDir}/iOS_Resign">
+      <arg line="upload --skip_submission"/>
+      <arg line="--username ${ituneconnectID}"/>
+    </exec>
+  </target>
+
+  <target name="unity-android-complie-development">
+    <antcall target="unity-android-complie">
+      <param name="static_method" value="BuildCommand.BuildAndroidDevelopmentRemote"/>
+    </antcall>
+  </target>
+
+  <target name="unity-android-complie-production">
+    <antcall target="unity-android-complie">
+      <param name="static_method" value="BuildCommand.BuildAndroidProductionRemote"/>
+    </antcall>
+  </target>
+  <target name="unity-android-complie-local">
+    <antcall target="unity-android-complie">
+      <param name="static_method" value="BuildCommand.LocalAndroidBuildDevelopment"/>
+    </antcall>
+  </target>
+  <target name="unity-android-complie" depends="clean">
+    <echo message="Compiling unity project for android version ${VERSION_STRING}"/>
+    <echo message="${unityPath} -projectPath ${devDir.absolute} -executeMethod ${static_method} -batchmode -logFile buildLog.txt -quit"/>
+    <exec executable="${unityPath}" failonerror="true">
+      <arg line="-projectPath ${devDir.absolute}"/>
+      <arg line="-executeMethod ${static_method}"/>
+      <arg line="-batchmode"/>
+      <arg line="-buildTarget android"/>
+      <arg line="-logFile ${buildDir}/buildLog.txt"/>
+      <arg line="-quit"/>
+    </exec>
+    <move file="${buildDir}/android" tofile="${buildDir}/${fileName}_v${VERSION_STRING}.apk"/>
+
+  </target>
+  
+  <target name="rename-android-build">
+      <move file="${buildDir}/android" tofile="${buildDir}/${fileName}_v${VERSION_STRING}.apk"/>
+  </target>
+  <target name="clean">
+    <echo message="Cleaning Build Space"/>
+    <delete dir="${buildDir}"/>
+    <mkdir dir="${buildDir}"/>
+  </target>
+
+  <target name="zipDsym">
+    <echo message="Zipping dSym"/>
+    <exec executable="zip" dir="${buildDir}/iPhone/build" failonerror="true">
+      <arg value="-r"/>
+      <arg value="${fileName}.app.dSYM.zip"/>
+      <arg value="${fileName}.app.dSYM"/>
+    </exec>
+  </target>
+
+</project>
