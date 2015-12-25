@@ -26,7 +26,8 @@ namespace AlleyLabs.AutoBuild{
 		public string buildDir = "../../../Build";
 		public string devDir = "../../..";
 		public string appleSigningIdentity = "'iPhone Distribution: Alley Labs (9Q2287C3QD)'";
-
+		public string bundleIdentifier = "com.alleylabs.game";
+		public string googleIAM = "buildserver-372@api-project-801529882551.iam.gserviceaccount.com";
 		public override string ToString ()
 		{
 			return string.Format ("[AndroidBuildSettings]");
@@ -66,7 +67,7 @@ namespace AlleyLabs.AutoBuild{
 	
 	[System.Serializable]
 	public class VersionIdentifier{
-		//public int bundleCode = 1;
+		public int bundleCode = 1;
 		public string version = "1.0";
 	}
 	

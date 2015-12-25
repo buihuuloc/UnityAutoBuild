@@ -92,7 +92,8 @@ public class BuildSettingsInspector : Editor {
 		_buildSettingsInstance.commonSettings.productName = EditorGUILayout.TextField ("Game Name", _buildSettingsInstance.commonSettings.productName);
 		
 		_buildSettingsInstance.commonSettings.gameBundle = EditorGUILayout.TextField ("Bundle Identifier", _buildSettingsInstance.commonSettings.gameBundle);
-		
+		_buildSettingsInstance.antBuildProperties.bundleIdentifier = _buildSettingsInstance.commonSettings.gameBundle;
+
 		PlayerSettings.defaultInterfaceOrientation = (UIOrientation)EditorGUILayout.EnumPopup ("Default Orientation", PlayerSettings.defaultInterfaceOrientation);
 		
 		if (PlayerSettings.defaultInterfaceOrientation == UIOrientation.AutoRotation) {
@@ -138,6 +139,7 @@ public class BuildSettingsInspector : Editor {
 		if (GUI.changed) {
 			EditorUtility.SetDirty(_buildSettingsInstance);
 			_buildSettingsInstance.antBuildProperties.SaveToFile();
+			AssetDatabase.SaveAssets();		
 		}
 		//DevelopmentBuild();
 	}
@@ -177,7 +179,7 @@ public class BuildSettingsInspector : Editor {
 		
 		EditorGUILayout.BeginVertical(GUI.skin.box);
 		versionSettings.androidVersion.version = EditorGUILayout.TextField ("Version", versionSettings.androidVersion.version);
-		//versionSettings.androidVersion.bundleCode = EditorGUILayout.IntField ("Bundle Code", versionSettings.androidVersion.bundleCode);
+		versionSettings.androidVersion.bundleCode = EditorGUILayout.IntField ("Bundle Code", versionSettings.androidVersion.bundleCode);
 		
 		EditorGUILayout.EndVertical ();
 		
@@ -191,7 +193,7 @@ public class BuildSettingsInspector : Editor {
 		
 		EditorGUILayout.BeginVertical(GUI.skin.box);
 		versionSettings.iOSVersion.version = EditorGUILayout.TextField ("Version",versionSettings.iOSVersion.version);
-		//versionSettings.iOSVersion.bundleCode = EditorGUILayout.IntField ("Bundle Code", versionSettings.iOSVersion.bundleCode);
+		versionSettings.iOSVersion.bundleCode = EditorGUILayout.IntField ("Bundle Code", versionSettings.iOSVersion.bundleCode);
 		
 		EditorGUILayout.EndVertical ();
 		
@@ -240,7 +242,7 @@ public class BuildSettingsInspector : Editor {
 			settings.androidBuilSettings.keyaliasPass = EditorGUILayout.TextField("Alias Pass", settings.androidBuilSettings.keyaliasPass);
 			EditorGUILayout.EndVertical();
 		}
-		PlayerSettings.Android.minSdkVersion = (AndroidSdkVersions)EditorGUILayout.Popup("Minimum API Level", PlayerSettings.Android.minSdkVersion.GetHashCode(),androidAPILevel);
+		PlayerSettings.Android.minSdkVersion = (AndroidSdkVersions)(EditorGUILayout.Popup ("Minimum API Level", (PlayerSettings.Android.minSdkVersion.GetHashCode() - 9), androidAPILevel) + 9);
 	}
 	
 	void ShowSettings(Settings settings, bool development){
@@ -272,6 +274,7 @@ public class BuildSettingsInspector : Editor {
 			//_buildSettingsInstance.antBuildProperties.xcodeBuild = EditorGUILayout.TextField ("Xcode Build", _buildSettingsInstance.antBuildProperties.xcodeBuild);
 			_buildSettingsInstance.antBuildProperties.appleSigningIdentity = EditorGUILayout.TextField ("Signing Identity", _buildSettingsInstance.antBuildProperties.appleSigningIdentity);
 			EditorGUILayout.HelpBox ("Must include ' '", MessageType.Info);
+			_buildSettingsInstance.antBuildProperties.googleIAM = EditorGUILayout.TextField ("Google IAM", _buildSettingsInstance.antBuildProperties.googleIAM);
 
 			_buildSettingsInstance.distributionIndex = EditorGUILayout.Popup ("Distribution Provisioning", _buildSettingsInstance.distributionIndex, provisioningFiles);
 			_buildSettingsInstance.antBuildProperties.IOSDistributionProvisioningFile = "./" + provisioningFiles [_buildSettingsInstance.distributionIndex];

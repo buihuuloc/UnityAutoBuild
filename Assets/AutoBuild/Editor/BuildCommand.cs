@@ -79,7 +79,7 @@ public static class BuildCommand{
 		PlayerSettings.iOS.targetOSVersion = iOSSettings.targetiOSVersion;
 
 
-		PlayerSettings.iOS.buildNumber = GetBundleCode ().ToString();
+		PlayerSettings.iOS.buildNumber = iOSVersion.bundleCode.ToString ();
 		PlayerSettings.bundleVersion = iOSVersion.version;
 
 		PlayerSettings.bundleIdentifier = buildSettings.commonSettings.gameBundle;
@@ -88,8 +88,9 @@ public static class BuildCommand{
 
 		PlayerSettings.SetScriptingDefineSymbolsForGroup (BuildTargetGroup.iOS, buildFlags);
 
+		//Screen.SetResolution(
 		//Default Settings
-		PlayerSettings.iOS.targetResolution = iOSTargetResolution.Native;
+		//PlayerSettings.iOS.targetResolution = iOSTargetResolution.Native;
 
 	}
 
@@ -110,7 +111,7 @@ public static class BuildCommand{
 
 		PlayerSettings.SetScriptingDefineSymbolsForGroup (BuildTargetGroup.Android, buildFlags);
 
-		PlayerSettings.Android.bundleVersionCode = GetBundleCode ();
+		PlayerSettings.Android.bundleVersionCode = androidVersion.bundleCode;
 
 		if (!localBuild) {
 			EditorPrefs.SetString("AndroidSdkRoot", buildSettings.commonSettings.androidSDK);

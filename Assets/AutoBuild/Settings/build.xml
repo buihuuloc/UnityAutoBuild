@@ -15,6 +15,7 @@
   <property file="Dev_En.properties"/>
   <property name="devDir.absolute" location="${devDir}"/>
   <property name="buildDir.absolute" location="${buildDir}"/>
+  <property name="baseDir" location="."/>
   <tstamp>
     <format property="TODAY_STAMP" pattern="yyyy_MM_dd" locale="en,US"/>
   </tstamp>
@@ -103,6 +104,16 @@
     <antcall target="resign-ipa">
       <param name="provisioning_file" value="${IOSAdHocPorvisioningFile}"/>
     </antcall>
+  </target>
+  
+  <target name="publish-apk">
+      <echo message="Publish APK file"/>
+      <exec executable="supply" failonerror ="true" dir="${buildDir}">
+      <arg line="-b ${fileName}_v${VERSION_STRING}.apk"/>
+      <arg line="-p ${bundleIdentifier}"/>
+      <arg line="-i ${googleIAM}"/>
+      <arg line="-k ${baseDir}/google.p12"/>
+    </exec>
   </target>
   
   <target name="resign-ipa">
